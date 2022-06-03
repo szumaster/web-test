@@ -1,0 +1,108 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: urL(https://i.imgur.com/ZYVozVj.jpg);
+    background-color: #0a101f;
+    font-family: 'Niramit', sans-serif;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    -webkit-user-select: none;
+    overflow: hidden;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes float {
+    0% {
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+        transform: translatey(0px);
+    }
+    50% {
+        box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+        transform: translatey(-22px);
+    }
+    100% {
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+        transform: translatey(0px);
+    }
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    z-index: 999;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    padding: 5px 5px;
+    overflow: hidden;
+    transform: translatey(0px);
+    animation: float 5s ease-in-out infinite;
+}
+
+.discord {
+    font-size: 30px;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 32px;
+    color: white;
+    padding: 0px 10px;
+}
+
+a:hover {
+    color: #1e96db;
+    transition: 0.3s;
+}
+
+.discord:hover {
+    color: #6782e0;
+    transition: 0.3s;
+}
+
+.in:hover {
+    color: #0072ad;
+    transition: 0.3s;
+}
+
+footer {
+    padding-bottom: 20px;
+    position: absolute;
+    bottom: 0;
+}
+
+) {
+    footer {
+        padding-top: 50px;
+        position: absolute;
+        bottom: 0;
+    }
+}
